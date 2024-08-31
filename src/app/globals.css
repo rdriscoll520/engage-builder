@@ -16,3 +16,24 @@
   @apply text-pink-500 text-7xl
 }
 
+.nav a {
+  @apply p-3 text-center
+}
+
+.table-custom-spacing {
+  padding: 20px;
+  border-collapse: collapse;
+}
+
+.table-custom-spacing th,
+.table-custom-spacing td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.table-custom-spacing th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+
