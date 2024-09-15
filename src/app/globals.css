@@ -36,4 +36,19 @@
   text-align: left;
 }
 
+.grid {
+  grid-template-columns: repeat(3, minmax(250px, 1fr));
+}
+
+.card {
+  @apply bg-white p-4 shadow-lg rounded-lg; 
+  z-index: 20; 
+  position: relative; 
+  margin: 1rem 0; 
+  width: 100%;
+  height: 100%;
+  
+}
+
+
 
